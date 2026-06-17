@@ -36,11 +36,11 @@ const categories = {
 
 const lastRolledItems = [
     {
-      "catacombs": "'catacombs_xp'",
-      "skill_xp": "'foraging_xp'",
-      "fishing": "'treasures_caught'",
-      "slayer": "'wolf_xp'",
-      "completions": "'f7_completions'"
+       catacombs: "catacombs_xp",
+      skill_xp: "foraging_xp",
+      fishing: "treasures_caught",
+      slayer: "wolf_xp",
+      completions: "f7_completions"
     },
 ]
 
