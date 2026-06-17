@@ -132,3 +132,8 @@ for (const category in odds) {
 
 console.log("Odds:", JSON.stringify(odds, null, 2));
 console.log("Prediction:", JSON.stringify(highestOdds, null, 2));
+document.getElementById("output").textContent =
+    JSON.stringify({
+        odds,
+        prediction: highestOdds
+    }, null, 2);
